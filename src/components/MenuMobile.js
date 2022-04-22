@@ -36,7 +36,7 @@ const MenuMobile = (props) => {
               className='flex flex-row items-center space-x-[16px] mb-[24px]'
               onClick={featuresExpandHandler}
             >
-              <h2>Features</h2>
+              <h2 className='hover:text-black cursor-pointer'>Features</h2>
               {featuresMenu ? (
                 <img src={iconArrowUp} alt='' height='6' width='12' />
               ) : (
@@ -47,19 +47,19 @@ const MenuMobile = (props) => {
               <div className='space-y-[16px] ml-[24px]'>
                 <div className='flex flex-row space-x-[16px] items-center'>
                   <img src={iconTodo} alt='' width='20' />
-                  <p>Todo List</p>
+                  <p className='hover:text-black cursor-pointer'>Todo List</p>
                 </div>
                 <div className='flex flex-row space-x-[16px] items-center'>
                   <img src={iconCalendar} alt='' width='20' />
-                  <p>Calendar</p>
+                  <p className='hover:text-black cursor-pointer'>Calendar</p>
                 </div>
                 <div className='flex flex-row space-x-[21px] items-center'>
                   <img src={iconReminders} alt='' width='15' />
-                  <p>Reminders</p>
+                  <p className='hover:text-black cursor-pointer'>Reminders</p>
                 </div>
                 <div className='flex flex-row space-x-[16px] items-center'>
                   <img src={iconPlanning} alt='' width='20' />
-                  <p>Planning</p>
+                  <p className='hover:text-black cursor-pointer'>Planning</p>
                 </div>
               </div>
             )}
@@ -69,7 +69,7 @@ const MenuMobile = (props) => {
               className='flex flex-row items-center space-x-[16px] mb-[24px]'
               onClick={companyExpandHandler}
             >
-              <h2>Company</h2>
+              <h2 className='hover:text-black cursor-pointer'>Company</h2>
               {companyMenu ? (
                 <img src={iconArrowUp} alt='' height='6' width='12' />
               ) : (
@@ -79,14 +79,14 @@ const MenuMobile = (props) => {
 
             {companyMenu && (
               <div className='space-y-[16px] ml-[24px]'>
-                <p>History</p>
-                <p>Our Team</p>
-                <p>Blog</p>
+                <p className='hover:text-black cursor-pointer'>History</p>
+                <p className='hover:text-black cursor-pointer'>Our Team</p>
+                <p className='hover:text-black cursor-pointer'>Blog</p>
               </div>
             )}
           </div>
-          <h2>Careers</h2>
-          <h2>About</h2>
+          <h2 className='hover:text-black cursor-pointer'>Careers</h2>
+          <h2 className='hover:text-black cursor-pointer'>About</h2>
         </nav>
       </div>
       <div
