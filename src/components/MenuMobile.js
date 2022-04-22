@@ -23,7 +23,7 @@ const MenuMobile = (props) => {
     <React.Fragment>
       <div className='fixed right-0 top-0 bg-white h-screen w-[240px] z-20 text-gray-600 text-base font-normal font-epilogue'>
         <img
-          className='fixed top-[16px] right-[16px] md:hidden'
+          className='fixed top-[21.5px] right-[20px] md:hidden'
           src={iconCloseMenu}
           alt=''
           width='24'
@@ -89,7 +89,10 @@ const MenuMobile = (props) => {
           <h2>About</h2>
         </nav>
       </div>
-      <div className='fixed top-0 bg-black h-screen w-screen opacity-75'></div>
+      <div
+        className='fixed top-0 bg-black h-screen w-screen opacity-75'
+        onClick={props.onClick}
+      ></div>
     </React.Fragment>
   );
 };
