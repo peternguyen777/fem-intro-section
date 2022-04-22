@@ -22,7 +22,7 @@ function App() {
       {/* Image */}
       <main>
         <img className='lg:hidden mb-[48px]' src={imageMobile} alt='' />
-        <div className='flex lg:flex-row lg:mt-[68px] lg:justify-end lg:mr-[130px] lg:mb-[130px]'>
+        <div className='flex lg:flex-row lg:mt-[68px] lg:justify-center lg:mx-auto lg:mb-[130px]'>
           <div className='flex flex-col items-center mx-[16px] text-center lg:text-left lg:ml-0 lg:justify-between lg:mr-[125px]'>
             <div className='lg:w-[540px] lg:mt-[104px]'>
               <h1 className='text-4xl font-bold mb-[28px] font-epilogue lg:text-7xl lg:mb-[68px]'>
