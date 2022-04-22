@@ -26,10 +26,10 @@ const Header = (props) => {
   };
 
   return (
-    <header className='flex font-normal font-epilogue justify-between items-center m-[16px] mb-[24px] h-[35px] lg:h-[42px] lg:mx-[40px] lg:mt-[20px]'>
+    <header className='flex font-normal font-epilogue justify-between items-center m-[16px] mb-[24px] h-[35px] md:h-[42px] md:mx-[40px] md:mt-[20px]'>
       <div className='flex'>
         <img src={logo} alt='' width='87' height='35' />
-        <div className='hidden ml-[60px] space-x-[40px] text-gray-600 lg:flex'>
+        <div className='hidden ml-[60px] space-x-[40px] text-gray-600 md:flex'>
           <div
             className='flex justify-end'
             onMouseOver={featuresExpandHandler}
@@ -88,7 +88,7 @@ const Header = (props) => {
       </div>
       <div>
         <img
-          className='lg:hidden'
+          className='md:hidden'
           src={iconMenu}
           alt=''
           width='32'
