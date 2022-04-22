@@ -6,7 +6,7 @@ import logoMeet from "../images/client-meet.svg";
 
 const Logos = () => {
   return (
-    <div className='flex items-center mt-[48px] mb-[94px] container justify-between lg:justify-start lg:space-x-reverse lg:space-x-[40px] lg:h-[28px] lg:mt-0 lg:mb-0'>
+    <div className='flex items-center mt-[48px] mb-[94px] container justify-between lg:justify-start lg:space-x-reverse lg:space-x-[35px] lg:h-[28px] lg:mt-0 lg:mb-0'>
       <img className='lg:hidden' src={logoDatabiz} alt='' width='80' />
       <img className='lg:hidden' src={logoAudiophile} alt='' width='52' />
       <img className='lg:hidden' src={logoMeet} alt='' width='64' />
